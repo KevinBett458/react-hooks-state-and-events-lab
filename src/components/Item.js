@@ -2,10 +2,10 @@ import React from "react";
 
 function Item({ name, category }) {
   return (
-    <li className="">
+    <li>
       <span>{name}</span>
       <span className="category">{category}</span>
-      <button className="add">Add to Cart</button>
+      <button className="in-cart">Add to Cart</button>
     </li>
   );
 }
